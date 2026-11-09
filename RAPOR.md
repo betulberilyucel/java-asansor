@@ -1,10 +1,10 @@
 # Rapor
 
-**Ad Soyad:**
-**Numara:**
+**Ad Soyad:** betül beril yücel
+**Numara:**684
 
 ## 1. Problemin Açıklaması
-<!-- Problemi kendi cümlelerinizle yazın. -->
+<!-- Problemi kendi cümlelerinizle yazın. --> asansör
 
 
 ## 2. Girdi - İşlem - Çıktı
