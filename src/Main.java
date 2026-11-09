@@ -4,19 +4,26 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // TODO: 1. Kullanıcıdan mevcut katı ve hedef katı alın
-
-        // TODO: 2. Girdileri kontrol edin (1-10 arası olmalı)
-
-        // TODO: 3. Hareket yönüne karar verin
-
-        // TODO: 4. Hareket mesafesini hesaplayın
-
-        // TODO: 5. Sonucu ekrana yazdırın
-
-        // TODO (Opsiyonel): Geçilen katları sırasıyla yazdırın
-
-        scanner.close();
+         System.out.println("mevcut katinizi giriniz");
+            int mkat=scanner.nextInt();
+        if(mkat>10 || mkat<0){
+             System.out.println("mevcut kat hatali");
+        }
+     System.out.println(" hedef katinizi giriniz");
+        int hkat=scanner.nextInt();
+        if(hkat>10 || hkat<0){
+             System.out.println(" hedef kat hatali");
+        }
+        if (hkat > mkat){
+             System.out.println("yukari cikacaksiniz");
+        }
+        else if (mkat > hkat){
+             System.out.println("asagi ineceksiniz");
+        }
+        else{
+             System.out.println("zaten hedeflediginiz kattasiniz");
+        }
+         System.out.println((hkat - mkat) + "kadar kat gideceksiniz");
     }
 }
+
