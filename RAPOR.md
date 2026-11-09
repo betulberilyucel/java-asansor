@@ -13,10 +13,10 @@
 - mevcut kat ve hedef kat
 
 **İşlemler:**
--mevcut kat ile hedef katı karşılaştırdı ve hedef kattan mevcut katı çıkardı
+- mevcut kat ile hedef katı karşılaştırdı ve hedef kattan mevcut katı çıkardı
 
 **Çıktılar:**
--yukarı yada aşağı gideceğini ve kaç kat gideceğini söyledi
+- yukarı yada aşağı gideceğini ve kaç kat gideceğini söyledi
 
 ## 3. Sözde Kod (Pseudocode)
 
@@ -34,10 +34,10 @@
 
 | Mevcut kat | Hedef kat | Beklenen sonuç | Programın sonucu | Doğru mu? |
 |---|---|---|---|---|
-| 3 | 8 | 5 kat yukarı | | |
-| 9 | 2 | 7 kat aşağı | | |
-| 5 | 5 | Hareket yok | | |
-| 1 | 10 | 9 kat yukarı | | |
+| 3 | 8 | 5 kat yukarı |5 kat yukarı| doğru |
+| 9 | 2 | 7 kat aşağı |aşağı -7 kat|doğru|
+| 5 | 5 | Hareket yok |aynı kattasınız|doğru|
+| 1 | 10 | 9 kat yukarı |9 kat yukarı | doğru|
 | 10 | 1 | 9 kat aşağı | | |
 | 0 | 5 | Geçersiz mevcut kat | | |
 | 5 | 11 | Geçersiz hedef kat | | |
