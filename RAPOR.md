@@ -1,6 +1,6 @@
 # Rapor
 
-**Ad Soyad:** betül beril yücel
+**Ad Soyad:** Betül Beril Yücel
 **Numara:** 684
 
 ## 1. Problemin Açıklaması
@@ -38,10 +38,10 @@
 | 9 | 2 | 7 kat aşağı |aşağı -7 kat|doğru|
 | 5 | 5 | Hareket yok |aynı kattasınız|doğru|
 | 1 | 10 | 9 kat yukarı |9 kat yukarı | doğru|
-| 10 | 1 | 9 kat aşağı | | |
-| 0 | 5 | Geçersiz mevcut kat | | |
-| 5 | 11 | Geçersiz hedef kat | | |
-| -2 | 4 | Geçersiz mevcut kat | | |
+| 10 | 1 | 9 kat aşağı |-9 kat aşağı |doğru |
+| 0 | 5 | Geçersiz mevcut kat |geçersiz |kısmen doğru(çünkü hala -5 diyo) |
+| 5 | 11 | Geçersiz hedef kat |geçersiz |kısmen doğru(hala+6 kat diyo) |
+| -2 | 4 | Geçersiz mevcut kat |geçersiz |kısmen doğru(hala+6 diyo) |
 
 ## 6. Ekstra Görev (Opsiyonel)
 <!-- 3 -> 8 için geçilen katların çıktısını buraya yapıştırın. -->
