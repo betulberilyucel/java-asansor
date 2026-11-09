@@ -1,29 +1,29 @@
 # Rapor
 
 **Ad Soyad:** betül beril yücel
-**Numara:**684
+**Numara:** 684
 
 ## 1. Problemin Açıklaması
-<!-- Problemi kendi cümlelerinizle yazın. --> asansör
+<!-- Problemi kendi cümlelerinizle yazın. --> asansör kat problemi
 
 
 ## 2. Girdi - İşlem - Çıktı
 
 **Girdiler:**
--
+- mevcut kat ve hedef kat
 
 **İşlemler:**
--
+-mevcut kat ile hedef katı karşılaştırdı ve hedef kattan mevcut katı çıkardı
 
 **Çıktılar:**
--
+-yukarı yada aşağı gideceğini ve kaç kat gideceğini söyledi
 
 ## 3. Sözde Kod (Pseudocode)
 
 ```
-1.
-2.
-3.
+1.mkat oku hkat oku
+2.karşılaştır ve farkı bul
+3.sonucu yaz
 ```
 
 ## 4. Akış Şeması
